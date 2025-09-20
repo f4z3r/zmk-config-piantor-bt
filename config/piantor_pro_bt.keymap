@@ -48,7 +48,6 @@
             #binding-cells = <2>;
             tapping-term-ms = <150>;
             flavor = "hold-preferred";
-            hold-trigger-on-release;
             hold-trigger-key-positions = <5 6 7 8 9 15 16 17 18 19 25 26 27 28 29 34 35 33>;
         };
 
@@ -78,7 +77,7 @@
             //                    | GUI | LWR | SPC | ENT | RSE  | ALT |
 
             bindings = <
-  &tap_hold_custom_left RS(LEFT_WIN) Q  &tap_hold_custom_left LEFT_SHIFT W  &tap_hold_custom_left RS(LEFT_CONTROL) F  &tap_hold_custom_left LEFT_ALT P  &kp B  &kp J  &tap_hold_custom_right RS(ALT_ERASE) L  &tap_hold_custom_right RS(LEFT_CONTROL) U  &tap_hold_custom_right LEFT_SHIFT Y  &tap_hold_custom_right RS(LEFT_WIN) SEMICOLON      &kp A  &kp R  &kp S  &kp T  &kp G  &kp M  &kp N  &kp E  &kp I  &kp O      &kp X  &kp C  &kp D  &kp V  &kp Z  &kp K  &kp H  &kp COMMA  &kp DOT  &kp MINUS    &kp ESCAPE  &kp SPACE  &lt 2 DELETE  &lt 1 TAB  &tap_hold_custom LSHIFT ENTER  &lt 3 BACKSPACE
+  &tap_hold_custom_left LEFT_WIN Q  &tap_hold_custom_left LEFT_SHIFT W  &tap_hold_custom_left LEFT_CONTROL F  &tap_hold_custom_left LEFT_ALT P  &kp B  &kp J  &tap_hold_custom_right LEFT_ALT L  &tap_hold_custom_right LEFT_CONTROL U  &tap_hold_custom_right LEFT_SHIFT Y  &tap_hold_custom_right LEFT_WIN SEMICOLON      &kp A  &kp R  &kp S  &kp T  &kp G  &kp M  &kp N  &kp E  &kp I  &kp O      &kp X  &kp C  &kp D  &kp V  &kp Z  &kp K  &kp H  &kp COMMA  &kp DOT  &kp MINUS    &kp ESCAPE  &kp SPACE  &lt 2 DELETE  &lt 1 TAB  &tap_hold_custom LSHIFT ENTER  &lt 3 BACKSPACE
             >;
         };
 
