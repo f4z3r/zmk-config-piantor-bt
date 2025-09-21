@@ -8,6 +8,15 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
+&lt {
+    tapping-term-ms = <150>;
+    quick-tap-ms = <150>;
+};
+
+&gresc {
+    bindings = <&kp ESC>, <&kp LS(MINUS)>;
+};
+
 / {
     chosen { zmk,physical-layout = &default_layout; };
 };
@@ -72,15 +81,13 @@
 
         colemak {
             display-name = "COLEMAK";
-
             bindings = <
-  &tap_hold_custom_left LEFT_WIN Q  &tap_hold_custom_left LEFT_SHIFT W  &tap_hold_custom_left LEFT_CONTROL F  &tap_hold_custom_left LEFT_ALT P  &kp B  &kp J  &tap_hold_custom_right LEFT_ALT L  &tap_hold_custom_right LEFT_CONTROL U  &tap_hold_custom_right LEFT_SHIFT Y  &tap_hold_custom_right LEFT_WIN SEMICOLON      &kp A  &kp R  &kp S  &kp T  &kp G  &kp M  &kp N  &kp E  &kp I  &kp O      &kp X  &kp C  &kp D  &kp V  &kp Z  &kp K  &kp H  &kp COMMA  &kp DOT  &kp MINUS    &gresc  &kp SPACE  &lt 2 DELETE  &lt 1 TAB  &tap_hold_custom LSHIFT ENTER  &lt 3 BACKSPACE
+  &tap_hold_custom_left LEFT_WIN Q  &tap_hold_custom_left LEFT_SHIFT W  &tap_hold_custom_left LEFT_CONTROL F  &tap_hold_custom_left LEFT_ALT P  &kp B  &kp J  &tap_hold_custom_right LEFT_ALT L  &tap_hold_custom_right LEFT_CONTROL U  &tap_hold_custom_right LEFT_SHIFT Y  &tap_hold_custom_right LEFT_WIN SEMICOLON      &kp A  &kp R  &kp S  &kp T  &kp G  &kp M  &kp N  &kp E  &kp I  &kp O      &kp X  &kp C  &kp D  &kp V  &kp Z  &kp K  &kp H  &kp COMMA  &kp DOT  &kp MINUS    &gresc  &kp SPACE  &lt 2 DELETE  &lt 1 TAB  &tap_hold_custom RIGHT_SHIFT ENTER  &lt 3 BACKSPACE
             >;
         };
 
         symbols {
             display-name = "SYMBOLS";
-
             bindings = <
   &kp LS(N7)  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LS(NUMBER_4)  &kp GRAVE  &trans  &kp LS(GRAVE)  &kp LS(BACKSLASH)  &kp LS(SLASH)  &trans      &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &kp SLASH  &kp LS(N5)  &kp LS(NUMBER_6)  &kp EQUAL  &kp LS(NUMBER_1)  &kp LS(EQUAL)  &kp LS(NUMBER_2)      &kp BACKSLASH  &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET)  &kp LS(NUMBER_3)  &none  &trans  &trans  &trans  &trans  &trans    &my_quote  &trans  &my_double_quote  &trans  &trans  &trans
             >;
