@@ -73,12 +73,6 @@
         colemak {
             display-name = "COLEMAK";
 
-            // --------------------------------------------------------------
-            // |  Q  |  W  |  E  |  R  |  T  |  Y  |  U   |  I  |  O  |  P  |
-            // |  A  |  S  |  D  |  F  |  G  |  H  |  J   |  K  |  L  |  ;  |
-            // |  Z  |  X  |  C  |  V  |  B  |  N  |  M   |  ,  |  .  |  /  |
-            //                    | GUI | LWR | SPC | ENT | RSE  | ALT |
-
             bindings = <
   &tap_hold_custom_left LEFT_WIN Q  &tap_hold_custom_left LEFT_SHIFT W  &tap_hold_custom_left LEFT_CONTROL F  &tap_hold_custom_left LEFT_ALT P  &kp B  &kp J  &tap_hold_custom_right LEFT_ALT L  &tap_hold_custom_right LEFT_CONTROL U  &tap_hold_custom_right LEFT_SHIFT Y  &tap_hold_custom_right LEFT_WIN SEMICOLON      &kp A  &kp R  &kp S  &kp T  &kp G  &kp M  &kp N  &kp E  &kp I  &kp O      &kp X  &kp C  &kp D  &kp V  &kp Z  &kp K  &kp H  &kp COMMA  &kp DOT  &kp MINUS    &gresc  &kp SPACE  &lt 2 DELETE  &lt 1 TAB  &tap_hold_custom LSHIFT ENTER  &lt 3 BACKSPACE
             >;
@@ -86,12 +80,6 @@
 
         symbols {
             display-name = "SYMBOLS";
-
-            // ---------------------------------------------------------------
-            // |  1  |  2  |  3  |  4  |  5    |  6  |  7  |  8  |  9  |  0  |
-            // | BT1 | BT2 | BT3 | BT4 | BT5   | LFT | DWN |  UP | RGT |     |
-            // | BTCR| RGB | RST | BOOT| Unlock|     |     |     |     |     |
-            //                    | GUI |     | SPC   | ENT |     | ALT |
 
             bindings = <
   &kp LS(N7)  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LS(NUMBER_4)  &kp GRAVE  &trans  &kp LS(GRAVE)  &kp LS(BACKSLASH)  &kp LS(SLASH)  &trans      &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &kp SLASH  &kp LS(N5)  &kp LS(NUMBER_6)  &kp EQUAL  &kp LS(NUMBER_1)  &kp LS(EQUAL)  &kp LS(NUMBER_2)      &kp BACKSLASH  &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET)  &kp LS(NUMBER_3)  &none  &trans  &trans  &trans  &trans  &trans    &my_quote  &trans  &my_double_quote  &trans  &trans  &trans
