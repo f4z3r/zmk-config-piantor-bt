@@ -17,6 +17,12 @@
     bindings = <&kp ESC>, <&kp LS(MINUS)>;
 };
 
+&mt {
+    tapping-term-ms = <150>;
+    quick-tap-ms = <150>;
+    hold-trigger-on-release;
+};
+
 / {
     chosen { zmk,physical-layout = &default_layout; };
 };
@@ -39,17 +45,6 @@
     };
 
     behaviors {
-        tap_hold_custom: tap_hold_custom {
-            compatible = "zmk,behavior-hold-tap";
-            label = "TAP_HOLD_CUSTOM";
-            bindings = <&kp>, <&kp>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <150>;
-            flavor = "hold-preferred";
-            quick-tap-ms = <150>;
-        };
-
         tap_hold_custom_left: tap_hold_custom_left {
             compatible = "zmk,behavior-hold-tap";
             label = "TAP_HOLD_CUSTOM_LEFT";
@@ -57,9 +52,10 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <150>;
-            flavor = "hold-preferred";
+            flavor = "balanced";
             hold-trigger-key-positions = <5 6 7 8 9 15 16 17 18 19 25 26 27 28 29 34 35 33>;
             quick-tap-ms = <150>;
+            hold-trigger-on-release;
         };
 
         tap_hold_custom_right: tap_hold_custom_right {
@@ -69,7 +65,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <150>;
-            flavor = "hold-preferred";
+            flavor = "balanced";
             hold-trigger-on-release;
             hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 20 21 22 23 24 30 31 32>;
             quick-tap-ms = <150>;
@@ -82,7 +78,7 @@
         colemak {
             display-name = "COLEMAK";
             bindings = <
-  &tap_hold_custom_left LEFT_WIN Q  &tap_hold_custom_left LEFT_SHIFT W  &tap_hold_custom_left LEFT_CONTROL F  &tap_hold_custom_left LEFT_ALT P  &kp B  &kp J  &tap_hold_custom_right LEFT_ALT L  &tap_hold_custom_right LEFT_CONTROL U  &tap_hold_custom_right LEFT_SHIFT Y  &tap_hold_custom_right LEFT_WIN SEMICOLON      &kp A  &kp R  &kp S  &kp T  &kp G  &kp M  &kp N  &kp E  &kp I  &kp O      &kp X  &kp C  &kp D  &kp V  &kp Z  &kp K  &kp H  &kp COMMA  &kp DOT  &kp MINUS    &gresc  &kp SPACE  &lt 2 DELETE  &lt 1 TAB  &tap_hold_custom RIGHT_SHIFT ENTER  &lt 3 BACKSPACE
+  &tap_hold_custom_left LEFT_WIN Q  &tap_hold_custom_left LEFT_SHIFT W  &tap_hold_custom_left LEFT_CONTROL F  &tap_hold_custom_left LEFT_ALT P  &kp B  &kp J  &tap_hold_custom_right LEFT_ALT L  &tap_hold_custom_right LEFT_CONTROL U  &tap_hold_custom_right LEFT_SHIFT Y  &tap_hold_custom_right LEFT_WIN SEMICOLON      &kp A  &kp R  &kp S  &kp T  &kp G  &kp M  &kp N  &kp E  &kp I  &kp O      &kp X  &kp C  &kp D  &kp V  &kp Z  &kp K  &kp H  &kp COMMA  &kp DOT  &kp MINUS    &gresc  &kp SPACE  &lt 2 DELETE  &lt 1 TAB  &mt RIGHT_SHIFT ENTER  &lt 3 BACKSPACE
             >;
         };
 
