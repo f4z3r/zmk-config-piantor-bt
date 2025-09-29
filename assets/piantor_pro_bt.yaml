@@ -1,0 +1,150 @@
+layout: {zmk_keyboard: piantor_pro_bt, layout_name: default_layout}
+layers:
+  COLEMAK:
+  - {t: Q, h: LEFT WIN}
+  - {t: W, h: LEFT SHIFT}
+  - {t: F, h: LEFT CONTROL}
+  - {t: P, h: LEFT ALT}
+  - B
+  - J
+  - {t: L, h: LEFT ALT}
+  - {t: U, h: LEFT CONTROL}
+  - {t: Y, h: LEFT SHIFT}
+  - {t: ;, h: LEFT WIN}
+  - A
+  - R
+  - S
+  - T
+  - G
+  - M
+  - N
+  - E
+  - I
+  - O
+  - X
+  - C
+  - D
+  - V
+  - Z
+  - K
+  - H
+  - ','
+  - .
+  - '-'
+  - {t: ESC, s: '`'}
+  - SPACE
+  - {t: DELETE, h: NUMBERS}
+  - {t: TAB, h: SYMBOLS}
+  - {t: ENTER, h: RIGHT SHIFT}
+  - {t: BACKSPACE, h: MOVE}
+  SYMBOLS:
+  - Sft+7
+  - '['
+  - ']'
+  - Sft+4
+  - '`'
+  - {t: ▽, type: trans}
+  - Sft+`
+  - Sft+\
+  - Sft+/
+  - {t: ▽, type: trans}
+  - Sft+8
+  - Sft+9
+  - Sft+0
+  - /
+  - Sft+5
+  - Sft+6
+  - '='
+  - Sft+1
+  - Sft+=
+  - Sft+2
+  - \
+  - Sft+[
+  - Sft+]
+  - Sft+3
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&my_quote'
+  - {t: ▽, type: trans}
+  - '&my_double_quote'
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  NUMBERS:
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
+  - ','
+  - '7'
+  - '8'
+  - '9'
+  - .
+  - F6
+  - Ctl+A
+  - Ctl+C
+  - Ctl+V
+  - F7
+  - Sft+'
+  - '4'
+  - '5'
+  - '6'
+  - Sft+;
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - ''''
+  - '1'
+  - '2'
+  - '3'
+  - '-'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - '0'
+  - {t: ▽, type: trans}
+  MOVE:
+  - BRIGHTNESS INC
+  - VOLUME UP
+  - PAGE UP
+  - HOME
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - UP ARROW
+  - {t: ▽, type: trans}
+  - BT CLR
+  - BRIGHTNESS DEC
+  - VOLUME DOWN
+  - PAGE DOWN
+  - END
+  - PRINTSCREEN
+  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - RIGHT
+  - BT NXT
+  - {t: ▽, type: trans}
+  - MUTE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BT PRV
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
