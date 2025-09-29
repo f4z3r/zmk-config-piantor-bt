@@ -1,0 +1,24 @@
+# Example for using the keymap-drawer ZMK user config workflow
+name: Draw ZMK keymaps
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "config/*.keymap"
+      - "config/*.dtsi"
+      - "boards/arm/piantor_pro_bt/*.dtsi"
+      - "assets/keymap_drawer.config.yaml"
+      - "boards/*/*/*.keymap"
+
+jobs:
+  generate-images:
+    uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
+    permissions:
+      contents: write
+    with:
+      keymap_patterns: "config/*.keymap"
+      config_path: "assets/keymap_drawer.config.yaml"
+      output_folder: "assets"
+      parse_args: ""
+      draw_args: "-d boards/arm/piantor_pro_bt/piantor_pro_bt-layouts.dtsi"
+      commit_message: "style(layout-pictures): ${{ github.event.head_commit.message }}"
