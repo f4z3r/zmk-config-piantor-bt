@@ -85,13 +85,13 @@
         symbols {
             display-name = "SYMBOLS";
             bindings = <
-  &kp LS(N7)  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LS(NUMBER_4)  &kp GRAVE  &trans  &kp LS(GRAVE)  &kp LS(BACKSLASH)  &kp LS(SLASH)  &trans      &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &kp SLASH  &kp LS(N5)  &kp LS(NUMBER_6)  &kp EQUAL  &kp LS(NUMBER_1)  &kp LS(EQUAL)  &kp LS(NUMBER_2)      &kp BACKSLASH  &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET)  &kp LS(NUMBER_3)  &none  &trans  &trans  &trans  &trans  &trans    &my_quote  &trans  &my_double_quote  &trans  &trans  &trans
+  &kp AMPERSAND  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp DOLLAR  &kp GRAVE  &trans  &kp TILDE  &kp PIPE  &kp QUESTION  &trans      &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH  &kp PERCENT  &kp CARET  &kp EQUAL  &kp EXCLAMATION  &kp PLUS  &kp AT_SIGN      &kp BACKSLASH  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp POUND  &trans  &trans  &trans  &trans  &trans  &trans    &my_quote  &trans  &my_double_quote  &trans  &trans  &trans
             >;
         };
 
         numbers {
             bindings = <
-  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp COMMA  &kp N7  &kp N8  &kp N9  &kp PERIOD      &kp F6  &kp LC(A)  &kp LC(C)  &kp LC(V)  &kp F7  &kp LS(SQT)  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp LS(SEMICOLON)      &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp SQT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS    &trans  &trans  &trans  &trans  &kp N0  &trans
+  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp COMMA  &kp N7  &kp N8  &kp N9  &kp PERIOD      &kp F6  &kp LC(A)  &kp LC(C)  &kp LC(V)  &kp F7  &kp DOUBLE_QUOTES  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp COLON      &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp SQT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS    &trans  &trans  &trans  &trans  &kp N0  &trans
             >;
 
             label = "NUMBERS";
