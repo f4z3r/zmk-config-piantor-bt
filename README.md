@@ -19,38 +19,15 @@ with some setting tweaks done by hand.
 
 ## Layout
 
-### COLEMAK
-
-This is technically a Colemak Mod-DH layout.
-
-![Colemak Layer](./assets/colemak.png)
+![Layout](./assets/piantor_pro_bt.svg)
 
 > [!NOTE]
-> The grave escape is modified to print an underscore (`_`) when right-shifted. Additionally, on the
-> BT version, the "homerow mods" will only trigger on keys of the other hand.
-
-### SYMBOLS
-
-![Symbols Layer](./assets/symbols.png)
+> The grave escape is modified to print an underscore (`_`) when right-shifted on the base layer.
+> Additionally, on the BT version, the "homerow mods" will only trigger on keys of the other hand.
 
 > [!NOTE]
-> The `M0` macro prints a double quote with a space (to have a full double quote sequence on US intl
-> layouts), and the `M1` macro prints a single quote with a space.
-
-### NUMBERS
-
-![Numbers Layer](./assets/numbers.png)
-
-### MOVEMENT
-
-![Movement Layer](./assets/movement.png)
-
-> [!NOTE]
-> On the BT version, the right most three keys serve to define the bluetooth profile. Specifically,
-> from top to bottom:
-> - Clear bluetooth profile
-> - Next bluetooth profile
-> - Previous bluetooth profile
+> The `my_double_quote` macro prints a double quote with a space (to have a full double quote
+> sequence on US intl layouts), and the `my_quote` macro prints a single quote with a space.
 
 ## Settings
 
