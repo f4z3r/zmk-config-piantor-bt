@@ -38,31 +38,31 @@ layers:
   - {t: ENTER, h: RIGHT SHIFT}
   - {t: BACKSPACE, h: MOVE}
   SYMBOLS:
-  - Sft+7
+  - '&'
   - '['
   - ']'
-  - Sft+4
+  - $
   - '`'
   - {t: ▽, type: trans}
-  - Sft+`
-  - Sft+\
-  - Sft+/
+  - '~'
+  - '|'
+  - '?'
   - {t: ▽, type: trans}
-  - Sft+8
-  - Sft+9
-  - Sft+0
+  - '*'
+  - (
+  - )
   - /
-  - Sft+5
-  - Sft+6
+  - '%'
+  - ^
   - '='
-  - Sft+1
-  - Sft+=
-  - Sft+2
+  - '!'
+  - +
+  - '@'
   - \
-  - Sft+[
-  - Sft+]
-  - Sft+3
-  - ''
+  - '{'
+  - '}'
+  - '#'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -90,11 +90,11 @@ layers:
   - Ctl+C
   - Ctl+V
   - F7
-  - Sft+'
+  - '"'
   - '4'
   - '5'
   - '6'
-  - Sft+;
+  - ':'
   - F1
   - F2
   - F3
