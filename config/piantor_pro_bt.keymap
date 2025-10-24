@@ -78,14 +78,14 @@
         colemak {
             display-name = "COLEMAK";
             bindings = <
-  &tap_hold_custom_left LEFT_WIN Q  &tap_hold_custom_left LEFT_SHIFT W  &tap_hold_custom_left LEFT_CONTROL F  &tap_hold_custom_left LEFT_ALT P  &kp B  &kp J  &tap_hold_custom_right LEFT_ALT L  &tap_hold_custom_right LEFT_CONTROL U  &tap_hold_custom_right LEFT_SHIFT Y  &tap_hold_custom_right LEFT_WIN SEMICOLON      &kp A  &kp R  &kp S  &kp T  &kp G  &kp M  &kp N  &kp E  &kp I  &kp O      &kp X  &kp C  &kp D  &kp V  &kp Z  &kp K  &kp H  &kp COMMA  &kp DOT  &kp MINUS    &gresc  &kp SPACE  &lt 2 DELETE  &lt 1 TAB  &mt RIGHT_SHIFT ENTER  &lt 3 BACKSPACE
+  &tap_hold_custom_left LEFT_WIN Q  &tap_hold_custom_left LEFT_SHIFT W  &tap_hold_custom_left LEFT_CONTROL F  &tap_hold_custom_left LEFT_ALT P  &kp B  &kp J  &tap_hold_custom_right LEFT_ALT L  &tap_hold_custom_right LEFT_CONTROL U  &tap_hold_custom_right LEFT_SHIFT Y  &tap_hold_custom_right LEFT_WIN SEMICOLON      &kp A  &kp R  &kp S  &kp T  &kp G  &kp M  &kp N  &kp E  &kp I  &kp O      &kp X  &kp C  &kp D  &kp V  &kp Z  &kp K  &kp H  &kp COMMA  &kp DOT  &kp MINUS    &gresc  &kp SPACE  &mo 2  &lt 1 TAB  &mt RIGHT_SHIFT ENTER  &lt 3 BACKSPACE
             >;
         };
 
         symbols {
             display-name = "SYMBOLS";
             bindings = <
-  &kp AMPERSAND  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp DOLLAR  &kp GRAVE  &trans  &kp TILDE  &kp PIPE  &kp QUESTION  &trans      &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH  &kp PERCENT  &kp CARET  &kp EQUAL  &kp EXCLAMATION  &kp PLUS  &kp AT_SIGN      &kp BACKSLASH  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp POUND  &trans  &trans  &trans  &trans  &trans  &trans    &my_quote  &trans  &my_double_quote  &trans  &trans  &trans
+  &kp AMPERSAND  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp DOLLAR  &kp GRAVE  &trans  &kp TILDE  &kp PIPE  &kp QUESTION  &trans      &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH  &kp PERCENT  &kp CARET  &kp EQUAL  &kp EXCLAMATION  &kp PLUS  &kp AT_SIGN      &kp BACKSLASH  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp POUND  &kp DELETE  &trans  &trans  &trans  &trans  &trans    &my_quote  &trans  &my_double_quote  &trans  &trans  &trans
             >;
         };
 
