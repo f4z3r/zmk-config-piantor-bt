@@ -33,7 +33,7 @@ layers:
   - '-'
   - {t: ESC, s: '`'}
   - SPACE
-  - {t: DELETE, h: NUMBERS}
+  - NUMBERS
   - {t: TAB, h: SYMBOLS}
   - {t: ENTER, h: RIGHT SHIFT}
   - {t: BACKSPACE, h: MOVE}
@@ -62,7 +62,7 @@ layers:
   - '{'
   - '}'
   - '#'
-  - {t: ▽, type: trans}
+  - DELETE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
