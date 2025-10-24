@@ -41,3 +41,20 @@ and a quick tap term of 150ms. I use:
 This configuration perfectly matches my typing style for homerow mods and how I use my mod/tap
 "Enter RS" key on the right thumb. It allows for the typical rolling movements of the Colemak layout
 while easily allowing to combine mods on one hand with a keys press of the other hand.
+
+## Flashing
+
+> [!WARNING]
+> If the no new device shows in `lsblk` when connecting and reseting it, try connecting to a
+> different USB port on the computer.
+
+1. Connect the keyboard to your computer via USB-C.
+2. Double press the SIM entry at the back of the keyboard to reset it.
+3. Mount the keyboard as a drive: `sudo mount /dev/sdc /mnt/drive/`
+4. Copy the correct firmware to it, for instance for the right side:
+   ```bash
+   sudo cp nice_view-piantor_pro_bt_right-zmk.uf2 /mnt/drive/
+   ```
+5. Wait between 15 to 30 seconds for the firmware to flash. The screen will flash when completed.
+6. Unmount the drive: `sudo umount -l /mnt/drive`
+7. Repeat for the other side.
