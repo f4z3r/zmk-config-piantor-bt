@@ -99,7 +99,7 @@
 
         movement {
             bindings = <
-  &kp C_BRIGHTNESS_INC  &kp C_VOLUME_UP  &kp PAGE_UP  &kp HOME  &trans  &trans  &trans  &kp UP_ARROW  &trans  &bt BT_CLR      &kp C_BRIGHTNESS_DEC  &kp C_VOLUME_DOWN  &kp PAGE_DOWN  &kp END  &kp PRINTSCREEN  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &bt BT_NXT      &trans  &kp C_MUTE  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_PRV    &trans  &trans  &trans  &trans  &trans  &trans
+  &kp C_BRIGHTNESS_INC  &kp C_VOLUME_UP  &kp PAGE_UP  &kp HOME  &trans  &bt BT_CLR  &trans  &kp UP_ARROW  &trans  &trans      &kp C_BRIGHTNESS_DEC  &kp C_VOLUME_DOWN  &kp PAGE_DOWN  &kp END  &kp PRINTSCREEN  &bt BT_NXT  &kp LEFT  &kp DOWN  &kp RIGHT  &trans      &trans  &kp C_MUTE  &trans  &trans  &trans  &bt BT_PRV  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             label = "MOVE";
