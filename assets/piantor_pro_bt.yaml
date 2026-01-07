@@ -117,31 +117,31 @@ layers:
   - PAGE UP
   - HOME
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BT CLR
   - {t: ▽, type: trans}
   - UP ARROW
   - {t: ▽, type: trans}
-  - BT CLR
+  - {t: ▽, type: trans}
   - BRIGHTNESS DEC
   - VOLUME DOWN
   - PAGE DOWN
   - END
   - PRINTSCREEN
-  - {t: ▽, type: trans}
+  - BT NXT
   - LEFT
   - DOWN
   - RIGHT
-  - BT NXT
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - MUTE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - BT PRV
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
