@@ -91,7 +91,7 @@
 
         numbers {
             bindings = <
-  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp COMMA  &kp N7  &kp N8  &kp N9  &kp PERIOD      &kp F6  &kp LC(A)  &kp LC(C)  &kp LC(V)  &kp F7  &kp DOUBLE_QUOTES  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp COLON      &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp SQT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS    &trans  &trans  &trans  &trans  &kp N0  &trans
+  &kp C_BRIGHTNESS_INC  &kp HOME  &kp PAGE_UP  &kp UP_ARROW  &kp C_VOLUME_UP  &kp COMMA  &kp N7  &kp N8  &kp N9  &kp PERIOD      &kp LC(X)  &kp LC(A)  &kp LC(C)  &kp LC(V)  &kp C_MUTE  &kp DOUBLE_QUOTES  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp COLON      &kp C_BRIGHTNESS_DEC  &kp END  &kp PAGE_DOWN  &kp DOWN_ARROW  &kp C_VOL_DN  &kp SQT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS    &trans  &trans  &trans  &trans  &kp N0  &trans
             >;
 
             label = "NUMBERS";
@@ -99,7 +99,7 @@
 
         movement {
             bindings = <
-  &kp C_BRIGHTNESS_INC  &kp C_VOLUME_UP  &kp PAGE_UP  &kp HOME  &trans  &bt BT_CLR  &trans  &kp UP_ARROW  &trans  &trans      &kp C_BRIGHTNESS_DEC  &kp C_VOLUME_DOWN  &kp PAGE_DOWN  &kp END  &kp PRINTSCREEN  &bt BT_NXT  &kp LEFT  &kp DOWN  &kp RIGHT  &trans      &trans  &kp C_MUTE  &trans  &trans  &trans  &bt BT_PRV  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+  &kp F9  &kp F10  &kp F11  &kp F12  &trans  &bt BT_CLR  &trans  &kp UP_ARROW  &trans  &trans      &kp F5  &kp F6  &kp F7  &kp F8  &kp PRINTSCREEN  &bt BT_NXT  &kp LEFT  &kp DOWN  &kp RIGHT  &trans      &kp F1  &kp F2  &kp F3  &kp F4  &trans  &bt BT_PRV  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             label = "MOVE";
