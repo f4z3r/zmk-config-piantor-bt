@@ -85,21 +85,21 @@ layers:
   - '8'
   - '9'
   - .
-  - Ctl+X
-  - Ctl+A
-  - Ctl+C
-  - Ctl+V
-  - MUTE
-  - '"'
-  - '4'
-  - '5'
-  - '6'
-  - ':'
   - BRIGHTNESS DEC
   - END
   - PAGE DOWN
   - DOWN ARROW
   - VOL DN
+  - '"'
+  - '4'
+  - '5'
+  - '6'
+  - ':'
+  - Ctl+X
+  - Ctl+A
+  - Ctl+C
+  - Ctl+V
+  - MUTE
   - ''''
   - '1'
   - '2'
