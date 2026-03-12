@@ -75,31 +75,31 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   NUMBERS:
-  - F8
-  - F9
-  - F10
-  - F11
-  - F12
+  - BRIGHTNESS INC
+  - HOME
+  - PAGE UP
+  - UP ARROW
+  - VOLUME UP
   - ','
   - '7'
   - '8'
   - '9'
   - .
-  - F6
+  - Ctl+X
   - Ctl+A
   - Ctl+C
   - Ctl+V
-  - F7
+  - MUTE
   - '"'
   - '4'
   - '5'
   - '6'
   - ':'
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
+  - BRIGHTNESS DEC
+  - END
+  - PAGE DOWN
+  - DOWN ARROW
+  - VOL DN
   - ''''
   - '1'
   - '2'
@@ -112,30 +112,30 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   MOVE:
-  - BRIGHTNESS INC
-  - VOLUME UP
-  - PAGE UP
-  - HOME
+  - F9
+  - F10
+  - F11
+  - F12
   - {t: ▽, type: trans}
   - BT CLR
   - {t: ▽, type: trans}
   - UP ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BRIGHTNESS DEC
-  - VOLUME DOWN
-  - PAGE DOWN
-  - END
+  - F5
+  - F6
+  - F7
+  - F8
   - PRINTSCREEN
   - BT NXT
   - LEFT
   - DOWN
   - RIGHT
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - MUTE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F1
+  - F2
+  - F3
+  - F4
   - {t: ▽, type: trans}
   - BT PRV
   - {t: ▽, type: trans}
