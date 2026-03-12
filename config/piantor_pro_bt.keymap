@@ -91,7 +91,7 @@
 
         numbers {
             bindings = <
-  &kp C_BRIGHTNESS_INC  &kp HOME  &kp PAGE_UP  &kp UP_ARROW  &kp C_VOLUME_UP  &kp COMMA  &kp N7  &kp N8  &kp N9  &kp PERIOD      &kp LC(X)  &kp LC(A)  &kp LC(C)  &kp LC(V)  &kp C_MUTE  &kp DOUBLE_QUOTES  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp COLON      &kp C_BRIGHTNESS_DEC  &kp END  &kp PAGE_DOWN  &kp DOWN_ARROW  &kp C_VOL_DN  &kp SQT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS    &trans  &trans  &trans  &trans  &kp N0  &trans
+  &kp C_BRIGHTNESS_INC  &kp HOME  &kp PAGE_UP  &kp UP_ARROW  &kp C_VOLUME_UP  &kp COMMA  &kp N7  &kp N8  &kp N9  &kp PERIOD      &kp C_BRIGHTNESS_DEC  &kp END  &kp PAGE_DOWN  &kp DOWN_ARROW  &kp C_VOL_DN  &kp DOUBLE_QUOTES  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp COLON      &kp LC(X)  &kp LC(A)  &kp LC(C)  &kp LC(V)  &kp C_MUTE  &kp SQT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS    &trans  &trans  &trans  &trans  &kp N0  &trans
             >;
 
             label = "NUMBERS";
