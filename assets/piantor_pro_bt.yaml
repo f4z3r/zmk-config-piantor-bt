@@ -75,7 +75,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   NUMBERS:
-  - BRIGHTNESS INC
+  - '&mkp RCLK'
   - HOME
   - PAGE UP
   - UP ARROW
@@ -85,7 +85,7 @@ layers:
   - '8'
   - '9'
   - .
-  - BRIGHTNESS DEC
+  - '&mkp LCLK'
   - END
   - PAGE DOWN
   - DOWN ARROW
@@ -116,7 +116,7 @@ layers:
   - F10
   - F11
   - F12
-  - {t: ▽, type: trans}
+  - BRIGHTNESS INC
   - BT CLR
   - {t: ▽, type: trans}
   - UP ARROW
@@ -136,7 +136,7 @@ layers:
   - F2
   - F3
   - F4
-  - {t: ▽, type: trans}
+  - BRIGHTNESS DEC
   - BT PRV
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
