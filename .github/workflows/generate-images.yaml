@@ -12,7 +12,7 @@ on:
 
 jobs:
   generate-images:
-    uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
+    uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@e855a57cf6f5851b8235b56a69d46fa0646b26e8 # main
     permissions:
       contents: write
     with:
